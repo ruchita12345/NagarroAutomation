@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UI Automation Assignment ]">
+  <listeners>
+    <listener class-name="com.qa.web.testReport.ExtentReportListener"/>
+  </listeners>
+  <test name="Droppable Test Cases">
+    <classes>
+      <class name="com.qa.web.test.DragAndDropTest"/>
+    </classes>
+  </test> <!-- Droppable Test Cases -->
+  <test name="Selectable Test Cases">
+    <classes>
+      <class name="com.qa.web.test.SelectTest"/>
+    </classes>
+  </test> <!-- Selectable Test Cases -->
+  <test name="ControlGroup Test Cases">
+    <classes>
+      <class name="com.qa.web.test.CheckBoxAndRadioButtonTest"/>
+    </classes>
+  </test> <!-- ControlGroup Test Cases -->
+  <test name="API Test Cases">
+    <classes>
+      <class name="com.qa.api.test.APITest"/>
+    </classes>
+  </test> <!-- API Test Cases -->
+  <test name="Android Test Cases">
+    <classes>
+      <class name="com.qa.android.test.AppiumTest"/>
+    </classes>
+  </test> <!-- Android Test Cases -->
+  <test name="Android Test Cases(failed)">
+    <classes>
+      <class name="com.qa.android.test.AppiumTest">
+        <methods>
+          <include name="unhandelledExceptionFail"/>
+          <include name="AppiumTest"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qa.android.test.AppiumTest -->
+      <class name="com.qa.web.test.CheckBoxAndRadioButtonTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.web.test.CheckBoxAndRadioButtonTest -->
+      <class name="com.qa.web.test.DragAndDropTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.web.test.DragAndDropTest -->
+      <class name="com.qa.web.test.SelectTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.web.test.SelectTest -->
+    </classes>
+  </test> <!-- Android Test Cases(failed) -->
+</suite> <!-- Failed suite [UI Automation Assignment ] -->

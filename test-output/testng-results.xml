@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UI Automation Assignment " duration-ms="144510" started-at="2021-09-05T11:34:37Z" finished-at="2021-09-05T11:37:02Z">
+    <groups>
+    </groups>
+    <test name="Droppable Test Cases" duration-ms="16160" started-at="2021-09-05T11:34:37Z" finished-at="2021-09-05T11:34:54Z">
+      <class name="com.qa.web.test.DragAndDropTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.web.test.DragAndDropTest@7823a2f9]" name="setup" is-config="true" duration-ms="11559" started-at="2021-09-05T15:34:37Z" finished-at="2021-09-05T15:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:com.qa.web.test.DragAndDropTest@7823a2f9]" name="dragAndDrop" duration-ms="4442" started-at="2021-09-05T15:34:49Z" finished-at="2021-09-05T15:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.web.test.DragAndDropTest@7823a2f9]" name="teardown" is-config="true" duration-ms="141" started-at="2021-09-05T15:34:53Z" finished-at="2021-09-05T15:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.web.test.DragAndDropTest -->
+    </test> <!-- Droppable Test Cases -->
+    <test name="Selectable Test Cases" duration-ms="10671" started-at="2021-09-05T11:34:54Z" finished-at="2021-09-05T11:35:04Z">
+      <class name="com.qa.web.test.SelectTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.web.test.SelectTest@523884b2]" name="setup" is-config="true" duration-ms="4780" started-at="2021-09-05T15:34:54Z" finished-at="2021-09-05T15:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectItems()[pri:0, instance:com.qa.web.test.SelectTest@523884b2]" name="selectItems" duration-ms="5789" started-at="2021-09-05T15:34:58Z" finished-at="2021-09-05T15:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.web.test.SelectTest@523884b2]" name="teardown" is-config="true" duration-ms="99" started-at="2021-09-05T15:35:04Z" finished-at="2021-09-05T15:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.web.test.SelectTest -->
+    </test> <!-- Selectable Test Cases -->
+    <test name="ControlGroup Test Cases" duration-ms="14831" started-at="2021-09-05T11:35:04Z" finished-at="2021-09-05T11:35:19Z">
+      <class name="com.qa.web.test.CheckBoxAndRadioButtonTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.web.test.CheckBoxAndRadioButtonTest@59f99ea]" name="setup" is-config="true" duration-ms="4423" started-at="2021-09-05T15:35:04Z" finished-at="2021-09-05T15:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectRadioButtonAndCheckBox()[pri:0, instance:com.qa.web.test.CheckBoxAndRadioButtonTest@59f99ea]" name="selectRadioButtonAndCheckBox" duration-ms="10283" started-at="2021-09-05T15:35:09Z" finished-at="2021-09-05T15:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRadioButtonAndCheckBox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.web.test.CheckBoxAndRadioButtonTest@59f99ea]" name="teardown" is-config="true" duration-ms="121" started-at="2021-09-05T15:35:19Z" finished-at="2021-09-05T15:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.web.test.CheckBoxAndRadioButtonTest -->
+    </test> <!-- ControlGroup Test Cases -->
+    <test name="API Test Cases" duration-ms="10650" started-at="2021-09-05T11:35:19Z" finished-at="2021-09-05T11:35:30Z">
+      <class name="com.qa.api.test.APITest">
+        <test-method status="PASS" signature="verifyGetTEST()[pri:0, instance:com.qa.api.test.APITest@6a4f787b]" name="verifyGetTEST" duration-ms="7826" started-at="2021-09-05T15:35:19Z" finished-at="2021-09-05T15:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetTEST -->
+        <test-method status="PASS" signature="verifyPOSTTest()[pri:0, instance:com.qa.api.test.APITest@6a4f787b]" name="verifyPOSTTest" duration-ms="2820" started-at="2021-09-05T15:35:27Z" finished-at="2021-09-05T15:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPOSTTest -->
+      </class> <!-- com.qa.api.test.APITest -->
+    </test> <!-- API Test Cases -->
+    <test name="Android Test Cases" duration-ms="92145" started-at="2021-09-05T11:35:30Z" finished-at="2021-09-05T11:37:02Z">
+      <class name="com.qa.android.test.AppiumTest">
+        <test-method status="PASS" signature="AppiumTest()[pri:0, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="AppiumTest" is-config="true" duration-ms="14234" started-at="2021-09-05T15:35:30Z" finished-at="2021-09-05T15:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumTest -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="verifyTitle" duration-ms="388" started-at="2021-09-05T15:35:44Z" finished-at="2021-09-05T15:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyEnCTAFunctionality()[pri:1, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="verifyEnCTAFunctionality" duration-ms="1998" started-at="2021-09-05T15:35:44Z" finished-at="2021-09-05T15:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnCTAFunctionality -->
+        <test-method status="PASS" signature="verifyRegisterFunctionality()[pri:2, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="verifyRegisterFunctionality" duration-ms="31032" started-at="2021-09-05T15:35:46Z" finished-at="2021-09-05T15:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterFunctionality -->
+        <test-method status="PASS" signature="verifyChromeLogoCTAFunctionality()[pri:3, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="verifyChromeLogoCTAFunctionality" duration-ms="12515" started-at="2021-09-05T15:36:17Z" finished-at="2021-09-05T15:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChromeLogoCTAFunctionality -->
+        <test-method status="PASS" signature="verifyShowProgressBarFunctionality()[pri:4, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="verifyShowProgressBarFunctionality" duration-ms="24387" started-at="2021-09-05T15:36:30Z" finished-at="2021-09-05T15:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowProgressBarFunctionality -->
+        <test-method status="FAIL" signature="unhandelledExceptionFail()[pri:5, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="unhandelledExceptionFail" duration-ms="6537" started-at="2021-09-05T15:36:54Z" finished-at="2021-09-05T15:37:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Homepage not available expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Homepage not available expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.qa.android.test.AppiumTest.unhandelledExceptionFail(AppiumTest.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unhandelledExceptionFail -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.android.test.AppiumTest@39c0f4a]" name="quit" is-config="true" duration-ms="1021" started-at="2021-09-05T15:37:01Z" finished-at="2021-09-05T15:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.android.test.AppiumTest -->
+    </test> <!-- Android Test Cases -->
+  </suite> <!-- UI Automation Assignment  -->
+</testng-results>
